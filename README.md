@@ -1,6 +1,18 @@
 # learnasactof-
 Proof of work React App sebagai front end dari RESTful API, fitur meliputi: Create User, Login, Show Product, Create Product, Update Product, Delete Product.
 
+### Get Started
+
+**You’ll need to have [https://nodejs.org/](Node), [https://git-scm.com/](Git), and Editor.
+
+First: on your console run `git clone https://github.com/mcseptian/learnasactof-.git`
+
+Then: open the project directory `cd learnasactof-`
+
+And: install dependency `npm install`
+
+Finally: you can try these commands to start the App.
+
 In the project directory, you can run:
 
 ### `npm start`
