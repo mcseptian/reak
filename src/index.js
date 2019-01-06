@@ -1,14 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import registerServiceWorker from './registerServiceWorker';
 import './index.css';
-
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
-
-import React from "react";
-import { render } from "react-dom";
 import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
 import Home from "./component/Test";
 import Login from "./component/Login";
@@ -16,6 +9,7 @@ import Register from "./component/CreateUser";
 
 import axios from "axios";
 import $ from "jquery";
+
 class App extends React.Component {
   constructor(props) {
     super(props);
@@ -208,6 +202,7 @@ class App extends React.Component {
 
 const AppContainer = withRouter(props => <App {...props} />);
 // console.log(store.getState())
+
 render(
   <BrowserRouter>
     <AppContainer />
