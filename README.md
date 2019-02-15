@@ -3,7 +3,7 @@ Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut
 
 ### Get Started
 
-**You’ll need to have [https://nodejs.org/](Node), [https://git-scm.com/](Git), and Editor.
+**You’ll need to have [https://nodejs.org/](Node), [https://git-scm.com/](Git), and Editor.**
 
 First: on your console run `git clone https://github.com/mcseptian/learnasactof-.git`
 
