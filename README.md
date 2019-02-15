@@ -5,9 +5,9 @@ Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut
 
 **You’ll need to have [https://nodejs.org/](Node), [https://git-scm.com/](Git), and Editor.**
 
-First: on your console run `git clone https://github.com/mcseptian/learnasactof-.git`
+First: on your console run `git clone https://github.com/mcseptian/reak.git`
 
-Then: open the project directory `cd learnasactof-`
+Then: open the project directory `cd reak`
 
 And: install dependency `npm install`
 
