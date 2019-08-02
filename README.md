@@ -1,5 +1,7 @@
-# reak
-Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut pautnya sama kesenian itu. Lalu repo buat apa sih ini? Proof of work React App sebagai front-end dari RESTful API, fitur meliputi: Create User, Login, Show Product, Create Product, Update Product, Delete Product. Change the API URL! Try on!
+# Reak
+Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut pautnya sama kesenian itu. Lalu repo buat apa sih ini? 
+Proof of work React App sebagai front-end dari RESTful API, fitur meliputi: Create User, Login, Show Product, Create Product, Update Product, Delete Product.
+Bukan Aplikasi Web semestinya, hanya ntuk belajar saja.
 
 ### Get Started
 
