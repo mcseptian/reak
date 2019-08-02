@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import './index.css';
 import { BrowserRouter, Route, Switch, withRouter } from "react-router-dom";
 import Home from "./component/Test";
@@ -10,7 +9,7 @@ import Register from "./component/CreateUser";
 import axios from "axios";
 import $ from "jquery";
 
-class App extends React.Component {
+class Apps extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -200,10 +199,10 @@ class App extends React.Component {
   }
 }
 
-const AppContainer = withRouter(props => <App {...props} />);
+const AppContainer = withRouter(props => <Apps {...props} />);
 // console.log(store.getState())
 
-render(
+ReactDOM.render(
   <BrowserRouter>
     <AppContainer />
   </BrowserRouter>,
