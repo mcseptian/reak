@@ -1,19 +1,9 @@
 # Reak
-Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut pautnya sama kesenian itu. Lalu repo buat apa sih ini? 
+Reaksi tanpa "si" nanti dibaca orang cedal sebagai leak, tapi ini ga ada sangkut pautnya sama kesenian itu. Lalu repo buat apa sih ini?
 Proof of work React App sebagai front-end dari RESTful API, fitur meliputi: Create User, Login, Show Product, Create Product, Update Product, Delete Product.
 Bukan Aplikasi Web semestinya, hanya ntuk belajar saja.
 
-### Get Started
-
-**You’ll need to have [https://nodejs.org/](Node), [https://git-scm.com/](Git), and Editor.**
-
-First: on your console run `git clone https://github.com/mcseptian/reak.git`
-
-Then: open the project directory `cd reak`
-
-And: install dependency `npm install`
-
-Finally: you can try these commands to start the App.
+## Available Scripts
 
 In the project directory, you can run:
 
@@ -55,3 +45,27 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
