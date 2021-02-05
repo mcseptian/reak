@@ -8,7 +8,6 @@ export const getRandomQuote = () => (dispatch) => {
     .then((res) => res.json())
     .then((data) => {
       dispatch({ type: ActionTypes.SET_RANDOM_QUOTE, payload: data })
-      console.log(data)
     })
     .catch((err) =>
       dispatch({ type: ActionTypes.FAILED_RANDOM_QUOTE, payload: err })

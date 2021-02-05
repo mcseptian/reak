@@ -1,3 +1,4 @@
+import { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { actions } from "../../store/actions"
 import styles from "./index.module.scss"
@@ -11,7 +12,7 @@ const Home = () => {
     <div className={styles.home}>
       <h2 className={styles.heading}>Home</h2>
       <div className={styles.quote}>
-        <p>{quote?.content ?? (loading ? "Loading..." : "- - -")}</p>
+        <p style={{color: '#fff'}}>{quote?.content ?? (loading ? "Loading..." : "- - -")}</p>
         <p>{quote?.author ?? (loading ? "Loading..." : "- - -")}</p>
         <button onClick={handleRandomQuote}>Get Random Quote</button>
       </div>

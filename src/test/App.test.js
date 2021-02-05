@@ -1,14 +1,14 @@
 import { 
-  // render, screen 
+  render, screen 
   } from "@testing-library/react"
-// import App from "../App"
-
-// test("renders home", () => {
-//   render(<App />)
-//   const linkElement = screen.getByText(/Home/i)
-//   expect(linkElement).toBeInTheDocument()
-// })
+import App from "../App"
 import reducers from '../store/reducers';
+
+test("renders home", () => {
+  render(<App />)
+  const buttonElement = screen.getByText(/['Get Random Quote']/i)
+  expect(buttonElement).toBeInTheDocument()
+})
 
 test('reducers', () => {
   let state;

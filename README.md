@@ -68,3 +68,20 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Catatan:
+
+- Menggunakan hooks hanya di komponen level.
+- Komponen memanggil hooks dengan urutan, sehingga akan memudahkan render jika hooks tidak berada di dalam fungsi atau kondisi.
+- Komponen dapat berisi hooks sebanyak yang dibutuhkan untuk render, bahkan memiliki hooks sendiri.
+- Hooks khas komponen dapat menggunakan  hooks standar sebarapun banyaknya untuk menghasilkan data yang diperlukan. Namun tetap menggunakan aturan standar penggunaan hooks, yaitu tidak digunakan di dalam fungsi ataupun kondisi.
+- Hooks khas dapat digunakan sebagai logic untuk suatu komponen atau digunakan untuk berbagai komponen yang menggunakan data yang sama.
+- Akses REACT_APP_NOT_SECRET_CODE variabel env di file js menggunakan process.env.REACT_APP_NOT_SECRET_CODE.
+- Atau gunakan variabel env standar NODE_ENV dengan process.env.NODE_ENV
+    - npm start = 'development'
+    - npm test = 'test'
+    - npm run build = 'production'
+- Prioritas pemanggilan variabel env
+    - npm start: .env.development.local, .env.local, .env.development, .env
+    - npm run build: .env.production.local, .env.local, .env.production, .env
+    - npm test: .env.test.local, .env.test, .env (note .env.local is missing)
