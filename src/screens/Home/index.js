@@ -1,7 +1,7 @@
-import { useEffect } from "react"
+import React from "react"
 import { useDispatch, useSelector } from "react-redux"
 import { actions } from "../../store/actions"
-import styles from "./index.module.scss"
+import styles from "./index.module.scss" // scoped styling
 
 const Home = () => {
   const dispatch = useDispatch()
@@ -12,7 +12,7 @@ const Home = () => {
     <div className={styles.home}>
       <h2 className={styles.heading}>Home</h2>
       <div className={styles.quote}>
-        <p style={{color: '#fff'}}>{quote?.content ?? (loading ? "Loading..." : "- - -")}</p>
+        <p style={{color: '#282828'}}>{quote?.content ?? (loading ? "Loading..." : "- - -")}</p>
         <p>{quote?.author ?? (loading ? "Loading..." : "- - -")}</p>
         <button onClick={handleRandomQuote}>Get Random Quote</button>
       </div>
